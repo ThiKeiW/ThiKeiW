@@ -22,7 +22,7 @@
 <img src="./assets/rule.svg" alt="" width="100%" align="top" />
 
 <!-- BLOQUE 3: SOBRE MÍ (izquierda, arriba) -->
-<img src="./assets/sobre-mi.svg" alt="Sobre mí" width="36%" align="left" />
+<img src="./assets/sobre-mi.svg" alt="Sobre mí" width="38%" align="left" />
 
 <!-- BLOQUE 4: PROYECTOS DESTACADOS (derecha) -->
 <img src="./assets/proyectos-header.svg" alt="Proyectos destacados" width="58%" align="right" />
