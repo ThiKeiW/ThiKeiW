@@ -1,57 +1,58 @@
 <!-- ============================================================
-     BLOQUE 1: ENCABEZADO (nickname + avatar, todo dentro de header.svg)
+     BLOQUE 1: ENCABEZADO 
      ============================================================ -->
-<p align="left">
-<img src="./assets/header.svg" alt="sThiKeiW" width="680" />
-</p>
+<h1 align="center">sThiKeiW <img src="./avatar.png" alt="avatar" width="64" align="middle" /></h1>
 
 <!-- ============================================================
-     BLOQUE 2: CONTACTO (etiqueta + íconos en una sola línea)
+     BLOQUE 2: CONTACTO
      ============================================================ -->
 <p align="left">
-<img src="./assets/contacto.svg" alt="Contacto" width="150" align="middle" />
+<b>Contacto</b>&nbsp;&nbsp;&nbsp;
 <!-- WhatsApp -->
-<a href="https://wa.me/51990820991"><img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="WhatsApp" width="40" align="middle" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://wa.me/51990820991"><img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="WhatsApp" width="36" align="middle" /></a>&nbsp;&nbsp;
 <!-- LinkedIn -->
-<a href="https://www.linkedin.com/in/kevin-chate-perez-b24749416/"><img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" width="40" align="middle" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/kevin-chate-perez-b24749416/"><img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" width="36" align="middle" /></a>&nbsp;&nbsp;
 <!-- Gmail -->
-<a href="mailto:kevinarian23@gmail.com"><img src="https://img.icons8.com/color/48/gmail-new.png" alt="Gmail" width="40" align="middle" /></a>&nbsp;&nbsp;&nbsp;
-<!-- Discord (opcional): descomenta y pon tu enlace
-<a href="TU_ENLACE_DISCORD"><img src="https://img.icons8.com/color/48/discord-new-logo.png" alt="Discord" width="40" align="middle" /></a>
--->
+<a href="mailto:kevinarian23@gmail.com"><img src="https://img.icons8.com/color/48/gmail-new.png" alt="Gmail" width="36" align="middle" /></a>
 </p>
 
-<!-- Línea divisoria -->
-<p align="left">
-<img src="./assets/divider.svg" alt="" width="680" />
-</p>
+---
 
 <!-- ============================================================
-     CUERPO: bloques con esquinas redondeadas (SVG), sin tablas.
-     Todos usan align="left" y se acomodan en dos columnas:
-       columna izquierda = 250 px | columna derecha = 430 px
-     El orden de abajo importa. No lo cambies.
+     CUERPO SUPERIOR: texto a la izquierda, tarjetas a la derecha.
+     Las tarjetas son imágenes con align="right" (flotan a la derecha)
+     y el texto "Sobre mí" fluye a su izquierda.
      ============================================================ -->
 
-<!-- BLOQUE 3: SOBRE MÍ (columna izquierda, arriba) -->
-<img src="./assets/sobre-mi.svg" alt="Sobre mí" width="250" align="left" />
+<!-- BLOQUE 4: PROYECTOS DESTACADOS (derecha) -->
+<h3 align="right">Proyectos destacados</h3>
 
-<!-- BLOQUE 4: PROYECTOS DESTACADOS (columna derecha, arriba)
-     Marco armado en 4 piezas apiladas: título, proyecto 1, proyecto 2, cierre.
-     Cada proyecto es clicable. Para cambiar texto/stack: edita assets/proyecto-N.svg -->
-<img src="./assets/proyectos-top.svg" alt="Proyectos destacados" width="430" align="left" />
-<a href="https://github.com/ThiKeiW/lol-info-movil"><img src="./assets/proyecto-1.svg" alt="lol-info-movil" width="430" align="left" /></a>
-<a href="https://github.com/ThiKeiW/Portal-Tramites-Centralizados"><img src="./assets/proyecto-2.svg" alt="Portal-Tramites-Centralizados" width="430" align="left" /></a>
-<img src="./assets/proyectos-bottom.svg" alt="" width="430" align="left" />
+<a href="https://github.com/ThiKeiW/lol-info-movil"><img align="right" vspace="6" src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=lol-info-movil&border_radius=8" alt="lol-info-movil" /></a>
+<a href="https://github.com/ThiKeiW/Portal-Tramites-Centralizados"><img align="right" vspace="6" src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=Portal-Tramites-Centralizados&border_radius=8" alt="Portal-Tramites-Centralizados" /></a>
 
-<!-- FRASE (columna derecha, bajo proyectos; color en assets/frase.svg) -->
-<img src="./assets/frase.svg" alt="No importa cuánto tiempo tengas, sino cómo lo usas" width="430" align="left" />
+<!-- FRASE en verde pantano. Color = parámetro color=4A5D23 -->
+<img align="right" vspace="6" src="https://readme-typing-svg.demolab.com?font=Lora&size=15&color=4A5D23&width=400&height=40&vCenter=true&repeat=false&duration=3500&lines=%22No+importa+cu%C3%A1nto+tiempo+tengas,+sino+c%C3%B3mo+lo+usas%22" alt="No importa cuánto tiempo tengas, sino cómo lo usas" />
 
-<!-- BLOQUE 5: SPOTIFY (columna izquierda, abajo)
-     Cuando despliegues tu endpoint, cambia el src por: https://TU-APP.vercel.app/api/spotify
-     El endpoint debe devolver un SVG de 250 px de ancho con esquinas redondeadas. -->
-<a href="https://open.spotify.com/user/TU_ID_SPOTIFY"><img src="./assets/spotify-placeholder.svg" alt="Spotify: canción actual" width="250" align="left" /></a>
+<!-- BLOQUE 3: SOBRE MÍ  -->
+### Sobre mí
 
-<!-- BLOQUE 6: CUADRO RESERVADO (columna derecha, abajo)
-     Sin definir aún. Ideas: stack general, "aprendiendo ahora", más proyectos. -->
-<img src="./assets/reservado.svg" alt="" width="430" align="left" />
+Hola, soy Kevin Chate, alias **ThiKeiW**.
+
+- Estudiante de Ingeniería de Software.
+- Me gusta construir cosas que resuelvan problemas reales.
+- Aprendiendo backend y la nube a base de proyectos.
+- Busco mi primera práctica preprofesional.
+- Fuera del código: videojuegos y música.
+
+<!-- Corta el flotado: lo siguiente va debajo de todo lo anterior -->
+<br clear="all" />
+
+<!-- ============================================================
+     BLOQUE 5: SPOTIFY (izquierda, abajo)
+     Descomenta cuando tengas tu endpoint desplegado (cambia TU-APP y TU_ID_SPOTIFY)
+     ============================================================ -->
+<!--
+<a href="https://open.spotify.com/user/TU_ID_SPOTIFY"><img src="https://TU-APP.vercel.app/api/spotify" alt="Escuchando ahora en Spotify" width="300" /></a>
+-->
+
+<!-- BLOQUE 6: espacio reservado (cuadro grande del boceto, sin definir aún) -->
