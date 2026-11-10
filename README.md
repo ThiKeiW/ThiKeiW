@@ -1,58 +1,39 @@
 <!-- ============================================================
-     BLOQUE 1: ENCABEZADO 
+     Diseño en bloques: SVG propios (assets/) + tarjetas de github-stats-extended.
+     Todo va dentro de un solo <div>. Columna izquierda = align="left",
+     columna derecha = align="right". El ORDEN de las etiquetas importa.
+     Los anchos están en % para que el diseño escale con la pantalla.
      ============================================================ -->
-<h1 align="center">sThiKeiW <img src="./avatar.png" alt="avatar" width="64" align="middle" /></h1>
+<div>
 
-<!-- ============================================================
-     BLOQUE 2: CONTACTO
-     ============================================================ -->
-<p align="left">
-<b>Contacto</b>&nbsp;&nbsp;&nbsp;
-<!-- WhatsApp -->
-<a href="https://wa.me/51990820991"><img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="WhatsApp" width="36" align="middle" /></a>&nbsp;&nbsp;
-<!-- LinkedIn -->
-<a href="https://www.linkedin.com/in/kevin-chate-perez-b24749416/"><img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" width="36" align="middle" /></a>&nbsp;&nbsp;
-<!-- Gmail -->
-<a href="mailto:kevinarian23@gmail.com"><img src="https://img.icons8.com/color/48/gmail-new.png" alt="Gmail" width="36" align="middle" /></a>
-</p>
+<!-- BLOQUE 1: ENCABEZADO (HOLA, SOY / sThiKeiW. + avatar embebido) -->
+<img src="./assets/header.svg" alt="Hola, soy sThiKeiW" width="100%" align="top" />
 
----
+<!-- BLOQUE 2: CONECTA CONMIGO (etiqueta a la izquierda, botones a la derecha)
+     Los botones se declaran de derecha a izquierda: WhatsApp, Correo, LinkedIn -->
+<img src="./assets/contacto-label.svg" alt="Conecta conmigo" width="37.9%" align="left" />
+<a href="https://wa.me/51990820991"><img src="./assets/contacto-whatsapp.svg" alt="WhatsApp" width="14.3%" align="right" /></a>
+<a href="mailto:kevinarian23@gmail.com"><img src="./assets/contacto-correo.svg" alt="Correo" width="11.2%" align="right" /></a>
+<a href="https://www.linkedin.com/in/kevin-chate-perez-b24749416/"><img src="./assets/contacto-linkedin.svg" alt="LinkedIn" width="13.1%" align="right" /></a>
 
-<!-- ============================================================
-     CUERPO SUPERIOR: tarjetas flotando a la derecha, texto a la izquierda.
-     Las tarjetas se declaran PRIMERO (float right) y el texto
-     "Sobre mí" fluye a su izquierda.
-     ============================================================ -->
+<!-- Línea divisoria (también corta el flotado de la fila de contacto) -->
+<img src="./assets/rule.svg" alt="" width="100%" align="top" />
 
-<!-- BLOQUE 4: PROYECTOS DESTACADOS (derecha, flotando) -->
-<h3 align="right">Proyectos destacados</h3>
+<!-- BLOQUE 3: SOBRE MÍ (izquierda, arriba) -->
+<img src="./assets/sobre-mi.svg" alt="Sobre mí" width="37.9%" align="left" />
 
-<a href="https://github.com/ThiKeiW/lol-info-movil"><img align="right" vspace="6" hspace="12" src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=lol-info-movil&border_radius=8" alt="lol-info-movil" /></a>
-<a href="https://github.com/ThiKeiW/Portal-Tramites-Centralizados"><img align="right" vspace="6" hspace="12" src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=Portal-Tramites-Centralizados&border_radius=8" alt="Portal-Tramites-Centralizados" /></a>
+<!-- BLOQUE 4: PROYECTOS DESTACADOS (derecha) -->
+<img src="./assets/proyectos-header.svg" alt="Proyectos destacados" width="61.9%" align="right" />
 
-<!-- FRASE en verde pantano. Color = parámetro color=4A5D23 -->
-<img align="right" vspace="6" hspace="12" src="https://readme-typing-svg.demolab.com?font=Lora&size=15&color=4A5D23&width=400&height=40&vCenter=true&repeat=false&duration=3500&lines=%22No+importa+cu%C3%A1nto+tiempo+tengas,+sino+c%C3%B3mo+lo+usas%22" alt="No importa cuánto tiempo tengas, sino cómo lo usas" />
+<a href="https://github.com/ThiKeiW/lol-info-movil"><img src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=lol-info-movil&theme=github_dark&border_color=2a313c&border_radius=10" alt="lol-info-movil" width="61.9%" align="right" /></a>
+<img src="./assets/space-10.svg" alt="" width="61.9%" align="right" />
+<a href="https://github.com/ThiKeiW/Portal-Tramites-Centralizados"><img src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=Portal-Tramites-Centralizados&theme=github_dark&border_color=2a313c&border_radius=10" alt="Portal-Tramites-Centralizados" width="61.9%" align="right" /></a>
 
-<!-- BLOQUE 3: SOBRE MÍ (izquierda) -->
-### Sobre mí
+<!-- BLOQUE 5: LENGUAJES MÁS USADOS (izquierda, abajo) — github-stats-extended -->
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ThiKeiW&layout=compact&langs_count=4&theme=github_dark&border_color=2a313c&border_radius=10&custom_title=Lenguajes+m%C3%A1s+usados" alt="Lenguajes más usados" width="35.1%" align="left" />
 
-Hola, soy Kevin Chate, alias **ThiKeiW**.
+<!-- FRASE (derecha, bajo los proyectos). Color: editar fill en assets/frase.svg -->
+<img src="./assets/space-18.svg" alt="" width="61.9%" align="right" />
+<img src="./assets/frase.svg" alt="No importa cuánto tiempo tengas, sino cómo lo usas" width="61.9%" align="right" />
 
-- Estudiante de Ingeniería de Software.
-- Me gusta construir cosas que resuelvan problemas reales.
-- Aprendiendo backend y la nube a base de proyectos.
-- Busco mi primera práctica preprofesional.
-- Fuera del código: videojuegos y música.
-
-<!-- Corta el flotado: lo siguiente va debajo de todo lo anterior -->
-<br clear="all" />
-
-<!-- ============================================================
-     BLOQUE 5: SPOTIFY (izquierda, abajo)
-     Descomenta cuando tengas tu endpoint desplegado (cambia TU-APP y TU_ID_SPOTIFY)
-     ============================================================ -->
-<!--
-<a href="https://open.spotify.com/user/TU_ID_SPOTIFY"><img src="https://TU-APP.vercel.app/api/spotify" alt="Escuchando ahora en Spotify" width="300" /></a>
--->
-
-<!-- BLOQUE 6: espacio reservado (cuadro grande del boceto, sin definir aún) -->
+</div>
