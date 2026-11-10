@@ -19,21 +19,21 @@
 ---
 
 <!-- ============================================================
-     CUERPO SUPERIOR: texto a la izquierda, tarjetas a la derecha.
-     Las tarjetas son imágenes con align="right" (flotan a la derecha)
-     y el texto "Sobre mí" fluye a su izquierda.
+     CUERPO SUPERIOR: tarjetas flotando a la derecha, texto a la izquierda.
+     Las tarjetas se declaran PRIMERO (float right) y el texto
+     "Sobre mí" fluye a su izquierda.
      ============================================================ -->
 
-<!-- BLOQUE 4: PROYECTOS DESTACADOS (derecha) -->
+<!-- BLOQUE 4: PROYECTOS DESTACADOS (derecha, flotando) -->
 <h3 align="right">Proyectos destacados</h3>
 
-<a href="https://github.com/ThiKeiW/lol-info-movil"><img align="right" vspace="6" src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=lol-info-movil&border_radius=8" alt="lol-info-movil" /></a>
-<a href="https://github.com/ThiKeiW/Portal-Tramites-Centralizados"><img align="right" vspace="6" src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=Portal-Tramites-Centralizados&border_radius=8" alt="Portal-Tramites-Centralizados" /></a>
+<a href="https://github.com/ThiKeiW/lol-info-movil"><img align="right" vspace="6" hspace="12" src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=lol-info-movil&border_radius=8" alt="lol-info-movil" /></a>
+<a href="https://github.com/ThiKeiW/Portal-Tramites-Centralizados"><img align="right" vspace="6" hspace="12" src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=Portal-Tramites-Centralizados&border_radius=8" alt="Portal-Tramites-Centralizados" /></a>
 
 <!-- FRASE en verde pantano. Color = parámetro color=4A5D23 -->
-<img align="right" vspace="6" src="https://readme-typing-svg.demolab.com?font=Lora&size=15&color=4A5D23&width=400&height=40&vCenter=true&repeat=false&duration=3500&lines=%22No+importa+cu%C3%A1nto+tiempo+tengas,+sino+c%C3%B3mo+lo+usas%22" alt="No importa cuánto tiempo tengas, sino cómo lo usas" />
+<img align="right" vspace="6" hspace="12" src="https://readme-typing-svg.demolab.com?font=Lora&size=15&color=4A5D23&width=400&height=40&vCenter=true&repeat=false&duration=3500&lines=%22No+importa+cu%C3%A1nto+tiempo+tengas,+sino+c%C3%B3mo+lo+usas%22" alt="No importa cuánto tiempo tengas, sino cómo lo usas" />
 
-<!-- BLOQUE 3: SOBRE MÍ  -->
+<!-- BLOQUE 3: SOBRE MÍ (izquierda) -->
 ### Sobre mí
 
 Hola, soy Kevin Chate, alias **ThiKeiW**.
