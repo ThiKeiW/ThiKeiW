@@ -22,7 +22,7 @@
 <img src="./assets/rule.svg" alt="" width="100%" align="top" />
 
 <!-- BLOQUE 3: SOBRE MÍ (izquierda, arriba) -->
-<img src="./assets/sobre-mi.svg" alt="Sobre mí" width="38%" align="left" />
+<img src="./assets/sobre-mi.svg" alt="Sobre mí" width="37%" align="left" />
 
 <!-- BLOQUE 4: PROYECTOS DESTACADOS (derecha) -->
 <img src="./assets/proyectos-header.svg" alt="Proyectos destacados" width="58%" align="right" />
@@ -32,7 +32,7 @@
 <a href="https://github.com/ThiKeiW/Portal-Tramites-Centralizados"><img src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=Portal-Tramites-Centralizados&theme=github_dark&border_color=2a313c&border_radius=10" alt="Portal-Tramites-Centralizados" width="58%" align="right" /></a>
 
 <!-- BLOQUE 5: LENGUAJES MÁS USADOS (izquierda, abajo) — github-stats-extended -->
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ThiKeiW&layout=compact&langs_count=4&theme=github_dark&border_color=2a313c&border_radius=10&custom_title=Lenguajes+m%C3%A1s+usados" alt="Lenguajes más usados" width="36%" align="left" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ThiKeiW&layout=compact&langs_count=4&theme=github_dark&border_color=2a313c&border_radius=10&custom_title=Lenguajes+m%C3%A1s+usados" alt="Lenguajes más usados" width="35%" align="left" />
 
 <!-- FRASE (derecha, bajo los proyectos). Color: editar fill en assets/frase.svg -->
 <img src="./assets/space-18.svg" alt="" width="58%" align="right" />
