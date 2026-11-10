@@ -23,17 +23,17 @@
 <img src="./assets/sobre-mi.svg" alt="Sobre mí" width="37.9%" align="left" />
 
 <!-- BLOQUE 4: PROYECTOS DESTACADOS (derecha) -->
-<img src="./assets/proyectos-header.svg" alt="Proyectos destacados" width="61.9%" align="right" />
+<img src="./assets/proyectos-header.svg" alt="Proyectos destacados" width="61%" align="right" />
 
-<a href="https://github.com/ThiKeiW/lol-info-movil"><img src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=lol-info-movil&theme=github_dark&border_color=2a313c&border_radius=10" alt="lol-info-movil" width="61.9%" align="right" /></a>
-<img src="./assets/space-10.svg" alt="" width="61.9%" align="right" />
-<a href="https://github.com/ThiKeiW/Portal-Tramites-Centralizados"><img src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=Portal-Tramites-Centralizados&theme=github_dark&border_color=2a313c&border_radius=10" alt="Portal-Tramites-Centralizados" width="61.9%" align="right" /></a>
+<a href="https://github.com/ThiKeiW/lol-info-movil"><img src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=lol-info-movil&theme=github_dark&border_color=2a313c&border_radius=10" alt="lol-info-movil" width="61%" align="right" /></a>
+<img src="./assets/space-10.svg" alt="" width="61%" align="right" />
+<a href="https://github.com/ThiKeiW/Portal-Tramites-Centralizados"><img src="https://github-stats-extended.vercel.app/api/pin/?username=ThiKeiW&repo=Portal-Tramites-Centralizados&theme=github_dark&border_color=2a313c&border_radius=10" alt="Portal-Tramites-Centralizados" width="61%" align="right" /></a>
 
 <!-- BLOQUE 5: LENGUAJES MÁS USADOS (izquierda, abajo) — github-stats-extended -->
 <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ThiKeiW&layout=compact&langs_count=4&theme=github_dark&border_color=2a313c&border_radius=10&custom_title=Lenguajes+m%C3%A1s+usados" alt="Lenguajes más usados" width="35.1%" align="left" />
 
 <!-- FRASE (derecha, bajo los proyectos). Color: editar fill en assets/frase.svg -->
-<img src="./assets/space-18.svg" alt="" width="61.9%" align="right" />
-<img src="./assets/frase.svg" alt="No importa cuánto tiempo tengas, sino cómo lo usas" width="61.9%" align="right" />
+<img src="./assets/space-18.svg" alt="" width="61%" align="right" />
+<img src="./assets/frase.svg" alt="No importa cuánto tiempo tengas, sino cómo lo usas" width="61%" align="right" />
 
 </div>
