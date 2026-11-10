@@ -11,7 +11,7 @@
 <img src="./assets/header.svg" alt="Hola, soy sThiKeiW" width="100%" align="top" />
 
 <!-- BLOQUE 2: CONECTA CONMIGO (etiqueta a la izquierda, botones alineados a la derecha) -->
-<img src="./assets/contacto-label.svg" alt="Conecta conmigo" width="22%" align="left" />
+<img src="./assets/contacto-label.svg" alt="Conecta conmigo" width="38%" align="left" />
 <div align="right">
 <a href="https://www.linkedin.com/in/kevin-chate-perez-b24749416/"><img src="./assets/contacto-linkedin.svg" alt="LinkedIn" width="12.1%" align="middle" /></a>&nbsp;
 <a href="mailto:kevinarian23@gmail.com"><img src="./assets/contacto-correo.svg" alt="Correo" width="10.2%" align="middle" /></a>&nbsp;
