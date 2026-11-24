@@ -37,6 +37,7 @@
 <img src="https://github-stats-extended.vercel.app/api/top-langs?username=ThiKeiW&layout=compact&langs_count=3&theme=transparent&border_color=2a313c&border_radius=10&custom_title=Lenguajes+m%C3%A1s+usados&v=2" alt="Lenguajes más usados" width="36%" align="left" />
 
 <!-- BLOQUE 6: CURRENTLY PLAYING (izquierda, bajo Lenguajes más usados). Reemplazar la URL del Worker tras el deploy. -->
+<img src="./assets/space-10.svg" alt="" width="36%" align="left" />
 <img src="https://thikeiw-now-playing.my-prifle.workers.dev/?user=ThiKeiW&width=360" alt="Escuchando ahora" width="36%" align="left" />
 
 <!-- BLOQUE 7 (cont.): PROYECTO 3 (derecha) -->
